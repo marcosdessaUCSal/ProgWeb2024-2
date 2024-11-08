@@ -31,7 +31,7 @@ body {
 
 .container-entrada {
     display: grid;
-    grid-template-columns: 10fr 1fr;
+    grid-template-columns: 10fr 1fr 1fr;
 }
 
 .container-entrada .entrada {
@@ -42,11 +42,11 @@ body {
     padding-left: 10px;
     font-size: 1.2em;
     font-weight: 900;
-    margin-right: 5px;
     border-radius: 4px;
 }
 
-.container-entrada .btn-mais {
+.btn-mais {
+    margin-left: 5px;
     background-color: cornflowerblue;
     color: white;
     align-content: center;
@@ -56,8 +56,23 @@ body {
     border-radius: 4px;
 }
 
-.container-entrada .btn-mais:active {
+.btn-mais:active {
     background-color: rgb(80, 118, 189);
+}
+
+.btn-undo {
+    margin-left: 5px;
+    background-color: darkcyan;
+    color: white;
+    align-content: center;
+    text-align: center;
+    font-size: 2em;
+    font-weight: 900;
+    border-radius: 4px;
+}
+
+.btn-undo:active {
+    background-color: rgb(3, 82, 82);
 }
 
 .container-list {
