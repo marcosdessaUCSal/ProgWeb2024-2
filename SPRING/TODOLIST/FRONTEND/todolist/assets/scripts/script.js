@@ -18,7 +18,7 @@ var arrayTarefas = new Array();
 
 
 // =================================================
-//      INICIALIZAÇÃO DOS DADOS MOCKADOS
+//      INICIALIZAÇÃO DOS DADOS
 // =================================================
 
 function exibeTarefas() {
